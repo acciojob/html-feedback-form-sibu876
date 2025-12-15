@@ -11,7 +11,7 @@
 	<h1>Feedback Form</h1>
 	<form method="post">
 		<label for="name">Name</label>
-		<input id="name" type="text" min="3" maxlength="50" required />
+		<input id="name" type="text" minlength="3" maxlength="50" required="yes" />
 		<br>
 		<label for="portfolio">Portfolio</label>
 		<input id="portfolio" type="url" required />
@@ -21,6 +21,7 @@
 		<br>
 		<label for="likeness">Linkeness</label>
 		<input id="likeness" type="range" min="1" max="100" />
+		<input type="submit" value="Submit"/>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
